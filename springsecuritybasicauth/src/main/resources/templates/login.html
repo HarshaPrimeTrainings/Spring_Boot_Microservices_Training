@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<center>
+	<div th:if="${param.error}" style="color: red">
+			Invalid UserName or Password
+	</div>
+		<h1>Welcome to Sleeping Dev Comunity</h1>
+		<form th:action="@{/login}" method="post">
+			<div>
+				<label> UserName <input type="text" name="username"></label>
+			</div>
+			<div>
+				<label> Password <input type="password" name="password"></label>
+			</div>
+			<input type="Submit" value="Login">
+		</form>
+
+	</center>
+</body>
+</html>

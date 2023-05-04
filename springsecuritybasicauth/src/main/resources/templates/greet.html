@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<center>
+<h1 style="color: teal;">Hello Gretings to [[${#httpServletRequest.remoteUser}]] !</h1>
+<form th:action="@{/logout}" method="post">
+<input type="submit" value="Logout">
+</form>
+</center>
+</body>
+</html>
