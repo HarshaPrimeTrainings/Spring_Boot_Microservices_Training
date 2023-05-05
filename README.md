@@ -2,6 +2,6 @@
 
 # Roles for Oath2
 ```
-insert into roles values(1,'ROLE_ADMIN')
-insert into roles values(2,'ROLE_USERS')
+insert into roles values(1,'ROLE_ADMIN');
+insert into roles values(2,'ROLE_USERS');
 ```
