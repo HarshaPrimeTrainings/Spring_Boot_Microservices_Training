@@ -1,0 +1,10 @@
+---
+version: "3"
+services:
+  spring-docker-demo:
+    image: dockerdemo
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - 7070:7070
